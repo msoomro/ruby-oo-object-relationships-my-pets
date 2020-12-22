@@ -11,7 +11,7 @@ describe "Associations" do
 
   context 'Owner instance methods' do
     describe "#cats" do
-      it "returnsa a collection of all the cats that belong to the owner" do
+      it "returns a collection of all the cats that belong to the owner" do
         cat_1 = Cat.new("Garfield", @owner)
         cat_2 = Cat.new("Fido", @owner)
         cat_3 = Cat.new("Whiskers", @owner)
@@ -24,7 +24,7 @@ describe "Associations" do
     end
 
     describe "#dogs" do
-      it "returnsa a collection of all the dogs that belong to the owner" do
+      it "returns a collection of all the dogs that belong to the owner" do
         dog_1 = Dog.new("Fido", @owner)
         dog_2 = Dog.new("Snuffles", @owner)
         dog_3 = Dog.new("Charley", @owner)
